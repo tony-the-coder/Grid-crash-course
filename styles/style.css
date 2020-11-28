@@ -24,6 +24,9 @@ main {
   grid-template-areas:
     "box1 box2 "
     "box3 box3";
+  /* resizes items */
+  /* justify-items: center;
+  align-items: center; */
 }
 
 /* .box1 {
@@ -40,6 +43,11 @@ main {
 
 .box1 {
   grid-area: box1;
+  /* align items is how we move things aroung */
+  /* align-self: end; */
+  /* display: flex; */
+  /* justify-content: space-around; */
+  /* align-items: center; */
 }
 
 .box2 {
