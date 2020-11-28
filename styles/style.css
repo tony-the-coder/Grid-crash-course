@@ -57,3 +57,14 @@ main {
 .box3 {
   grid-area: box3;
 }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+}
